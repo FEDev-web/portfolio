@@ -1,0 +1,22 @@
+.contact {
+	&__link {
+		color: black;	
+
+		&::after {
+			content: '';
+			display: block;
+			width: 0px;
+			height: 2px;
+			background-color: black;
+			transition: .7s;
+		}
+
+		&:hover::after {
+			width: 100%;			
+		}
+	}
+
+	.icon {
+		display: block;
+	}	
+}

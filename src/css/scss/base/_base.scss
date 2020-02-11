@@ -1,0 +1,21 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+	scroll-behavior: smooth;
+}
+
+*:focus {
+	outline: black auto 1px;
+	opacity: 1 !important;
+}
+
+body {
+	font-family: $font-primary;
+	color: black;
+}
+
+a {
+	text-decoration: none;
+}
